@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PROJECT</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <div id="backtop">
+            <a href="#">
+                <img src="images/back-top.svg" alt="" />
+            </a>
+        </div>
+        <header>
+            <nav class="container">
+                <a href="#">
+                    <img src="images/logo.svg" alt="Handbrake" />
+                </a>
+                <p>Handbrake</p>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link">Dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-menu-item">
+                                <a href="#" class="dropdown-menu-link">Dropdown Link 1</a>
+                            </li>
+                            <li class="dropdown-menu-item">
+                                <a href="#" class="dropdown-menu-link">Dropdown Link 2</a>
+                            </li>
+                            <li class="dropdown-menu-item">
+                                <a href="#" class="dropdown-menu-link">Dropdown Link 3</a>
+                            </li>
+                            <li class="dropdown-menu-item">
+                                <a href="#" class="dropdown-menu-link">Dropdown Link 4</a>
+                            </li>
+                            <li class="dropdown-menu-item">
+                                <a href="#" class="dropdown-menu-link">Dropdown Link 5</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Community & Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-download-link">Downloads</a>
+                    </li>
+                </ul>
+                <button id="navbar-open" class="nav-btn">
+                    <img src="images/menu.svg" alt="Menu" />
+                </button>
+            </nav>
+        </header>
+        <ul id="navbar-responsive">
+            <button id="navbar-close">
+                <img src="images/close.svg" alt="" />
+            </button>
+            <li class="navbar-item">
+                <a href="#home" class="navbar-link">Home</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#about" class="navbar-link">About</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#services" class="navbar-link">Services</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#" class="navbar-link">Community & Support</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#" class="navbar-download-link">Downloads</a>
+            </li>
+        </ul>
+        <main>
+            <section id="home">
+                <div class="container home-container">
+                    <div class="home-left">
+                        <h1>Handbrake</h1>
+                        <h3>The open source video transcoder</h3>
+                        <p>
+                            HandBrake is a tool for converting video from nearly any format to
+                            a selection of modern, widely supported codecs
+                        </p>
+                        <button>Download for Free</button>
+                    </div>
+                    <div class="home-right">
+                        <img src="images/home.png" alt="" />
+                    </div>
+                </div>
+            </section>
+            <section id="about">
+                <h1 class="text-center">About</h1>
+                <div class="container about-container">
+                    <div class="about-card">
+                        <h3>Convert video from nearly any format</h3>
+                    </div>
+                    <div class="about-card">
+                        <h3>Convert video from nearly any format</h3>
+                    </div>
+                    <div class="about-card">
+                        <h3>Convert video from nearly any format</h3>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-1">
+                        Just a few reason you <br>
+                        will love HandBrake
+                    </p>
+                    <p class="chiziq">
+                        <img src="Rectangle 7.svg" alt="">
+                    </p>
+                </div>
+                <div class="img">
+                    <img src="Rectangle 1.png" alt="Bu yerda rasm bor">
+                    <div class="img-cantent">
+                        <h2>Optimised for easy use</h2>
+                        <h3>Built-in Device Presets</h3>
+                        <p>Get started with HandBrake in seconds by choosing a profile optimised for your device, or choose a universal profile
+                            for
+                            standard or high quality conversions. Simple, easy, fast. For those that want more choice, tweak many basic and
+                            advanced
+                            options to improve your encodes.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section style="background-color: #E9F5FF;">
+                <div class="container">
+                    <div class="supported-img">
+                        <div class="input-sources">
+                            <code>Modern video formats</code>
+                            <h2>Supported Input Sources</h2>
+                            <p>Handbrake can process most common multimedia files and any DVD or BluRay sources that do not contain
+                                any kind of copyprotection.</p>
+                            <h5>Outputs</h5>
+                            <ul class="outpats-ordered-list">
+                                <li class="outpats-item"><img src="check-circle.svg" alt="chekcircle"> File Containers:
+                                    .MP4(.M4V) and .MKV</li>
+                                <li class="outpats-item"><img src="check-circle.svg" alt="chekcircle">Video Encoders: H.265
+                                    (x265 and QuickSync), H.264(x264 and QuickSync), H.265 MPEG-4 and MPEG-2, VP8, VP9 and Theora
+                                </li>
+                                <li class="outpats-item"><img src="check-circle.svg" alt="chekcircle">Audio Encoders: AAC /
+                                    HE-AAC, MP3, Flac, AC3, or Vorbis</li>
+                                <li class="outpats-item"><img src="check-circle.svg" alt="chekcircle">Audio Pass-thru: AC-3,
+                                    E-AC3, DTS, DTS-HD, TrueHD, AAC and MP3 tracks</li>
+                            </ul>
+                        </div>
+                        <img class="settings-img" src="Rectangle 2.png" alt="settings-window">
+                    </div>
+                </div>
+            </section>
+            <section style="background-color: #E9F5FF;">
+                <div class="container">
+                    <div class="ibrohim">
+                        <img src="Rectangle 3.png" alt="Bu yerda rasm bor">
+                        <div class="">
+                            <h1 class="ert">
+                                With you in mind
+                            </h1>
+                            <h2 class="erts">
+                                Even more features for you
+                            </h2>
+                            <ul class="ilhomb">
+                                <li class="outpats-items">
+                                    <img src="check-circle.svg" alt="Bu yerda rasm bor">
+                                    Title / chapter and range selection
+                                </li>
+                                <li class="outpats-items">
+                                    <img src="check-circle.svg" alt="Bu yerda rasm bor">
+                                    Batch Scan and Queueing of encodes
+                                </li>
+                                <li class="outpats-items">
+                                    <img src="check-circle.svg" alt="Bu yerda rasm bor">
+                                    Live Static and Video Preview
+                                </li>
+                                <li class="outpats-items">
+                                    <img src="check-circle.svg" alt="Bu yerda rasm bor">
+                                    Support for VFR and CFR
+                                </li>
+                                <li class="outpats-items">
+                                    <img src="check-circle.svg" alt="Bu yerda rasm bor">
+                                    Chapter Markers
+                                </li>
+                                <li class="outpats-items">
+                                    <img src="check-circle.svg" alt="Bu yerda rasm bor">
+                                    Constant Quality or Average Bitrate Video Encoding
+                                </li>
+                                <li class="outpats-items">
+                                    <img src="check-circle.svg" alt="Bu yerda rasm bor">
+                                    Video Filters: Deinterlacing, Decomb, Denoise, Detelecine, Deblock, Grayscale, Cropping and
+                                    scaling
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="container">
+            <div class="containerbek">
+                <pre>
+                    <p style="display: flex;
+                    padding-top: 54px;
+                    padding-bottom: 69px;
+                    column-gap: 5px;
+                    color: #4F4F4F;
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 134.3%;
+                    letter-spacing: 0.32px;  background-color: #1391CE;">
+                        Copyright 2020 ©<i style="color: #fff;">The HandBrake Team</i> | Privacy Policy                                                                          Found a bug? <i style="color: white;">Talk to use</i>
+                    </p>
+                </pre>
+            </div>
+        </footer>
+        <!-- <script src="js/main.js"></script> -->
+    </body>
+</html>
